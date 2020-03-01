@@ -1,0 +1,8 @@
+<?php
+$s_plugin_HhTimer_title = 'Timer';
+$s_plugin_HhTimer_description = 'Ajoute un timer lors dans le formulaire de saisie de temps';
+$s_plugin_HhTimer_timer = 'Timer';
+$s_plugin_HhTimer_start = 'Start';
+$s_plugin_HhTimer_pause = 'Pause';
+$s_plugin_HhTimer_stop = 'Stop';
+$s_plugin_HhTimer_reset = 'Reset';
