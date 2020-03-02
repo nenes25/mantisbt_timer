@@ -71,10 +71,9 @@ class HhTimerPlugin extends MantisPlugin
 
     /**
      * Add js to configure timer on bug view page
-     * @todo restreindre la page
      */
     public function resources(){
-        if ( $this->shouldDisplay()) {
+        if ( helper_mantis_url( 'bug_view_page.php' ) == $_SERVER['PHP_SELF'] ) {
             echo '<script src="' . plugin_file("easytimer.min.js") . '"></script>';
             echo '<script src="' . plugin_file("easytimer_config.js") . '"></script>';
         }
